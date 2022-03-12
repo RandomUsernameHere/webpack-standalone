@@ -40,8 +40,8 @@ module.exports = {
                             publicPath: "/css/",
                         }
                     },
-                    { loader: 'css-loader', options: { sourceMap: true }},
-                    { loader: 'postcss-loader', options: { sourceMap: true }}
+                    {loader: 'css-loader', options: {sourceMap: true}},
+                    {loader: 'postcss-loader', options: {sourceMap: true}}
                 ],
             },
             {
